@@ -1,4 +1,4 @@
 # Add  code here!
-def prime?(integer)
-  integer.prime?
-end 
+def prime?(num)
+  Math.sqrt(num).floor.downto(2).each {|i| return false if num % i == 0}
+end
