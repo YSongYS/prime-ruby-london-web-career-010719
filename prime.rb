@@ -5,7 +5,7 @@ def prime?(num)
     false
   else for denominator in 1..(num-1) do
     answer = answer || (num % denominator == 0)
-    return answer
+    return !answer
   end
   end
 end
