@@ -12,4 +12,3 @@ def prime?(num)
   return !answer
   end
 end
-
