@@ -5,10 +5,11 @@ def prime?(num)
     false
   elsif num==2
     true
-  else for denominator in 2..(num-1) do
+  else 
+    for denominator in 2..(num-1) do
     answer = answer || (num % denominator == 0)
-    return !answer
   end
+  return !answer
   end
 end
 
